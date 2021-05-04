@@ -1,12 +1,12 @@
-# nemo-docs
+# nemo-docs-redirect
 
-Documentation for NEMO
+Old documentation for NEMO, because readthedocs doesn't support changing the slug.
 
 ## Publishing
 
-To rebuild, just push commits to `master`. Read the Docs will pick them up automatically.
+To rebuild, just push commits to `main`. Read the Docs will pick them up automatically.
 
-Automatic deploys can be configured [here](https://readthedocs.org/dashboard/nemo/integrations/).
+Automatic deploys can be configured [here](https://readthedocs.org/dashboard/elmo-nemo/integrations/).
 
 ## Development
 

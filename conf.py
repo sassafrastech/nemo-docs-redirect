@@ -31,7 +31,16 @@ import sphinx_fontawesome
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx.ext.autodoc', 'sphinx_fontawesome']
+extensions = [
+    'sphinx.ext.autodoc',
+    'sphinx_fontawesome',
+    'notfound.extension'
+]
+
+notfound_context = {
+    'title': 'Page not found',
+    'body': '<h1>Documentation has moved!</h1>Please use the new website: <a href="https://getnemo.readthedocs.io/en/latest/">getnemo.readthedocs.io</a>',
+}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']

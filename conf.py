@@ -56,7 +56,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'NEMO Documentation'
-copyright = u'2021, The Carter Center. This document is licensed under a Creative Commons Attribution 4.0 International License'
+copyright = u'2025, The Carter Center. This document is licensed under a Creative Commons Attribution 4.0 International License'
 author = u'The Carter Center'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -109,11 +109,6 @@ html_theme_options = {
     'display_version': False,
 }
 html_title = "NEMO Documentation"
-
-
-# Add custom CSS
-def setup(app):
-    app.add_stylesheet('css/custom.css')
 
 
 # Custom sidebar templates, must be a dictionary that maps document names
